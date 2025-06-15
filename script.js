@@ -1,6 +1,6 @@
 const questions = [
   {
-    question: "Where do we write a link tag in HTML?",
+    question: "Where do we write a link tag to link css to HTML?",
     options: ["in body", "in head", "in title", "in CSS"],
     answer: "B"
   },
