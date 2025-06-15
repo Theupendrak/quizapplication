@@ -1,0 +1,142 @@
+body{
+    background-color: #2D3748;
+}
+#container{
+    border: 3px;
+    border-style: solid;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    width: 620px;
+    height: 400px;
+    color: rgb(20, 28, 48);
+    background-color: #1d2b46; 
+     border-radius: 30px;
+    
+    
+}
+#para-1{
+    margin-right: 540px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(0, 172, 0);
+    font-weight: bold;
+    font-size: 15px;
+}
+#para-2{
+    margin-right: 150px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-family:  'Source Sans Pro', sans-serif;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.quizoption{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #272f3f;
+    border-radius: 15px;
+    border-style: solid;
+    color: white;
+    text-align: left;
+    width: 550px;
+    z-index: auto;
+    padding: 6px;
+    margin-bottom:10px;
+    border-color: rgb(1, 4, 14);
+    font-size: 18px;
+    border-width: 1px;
+    cursor: pointer;
+    
+} 
+
+#resultContent {
+      display: none;
+    }
+#correctMessage{
+      background-color: green;
+      color: white;
+      border-radius: 8px;
+      position: relative;
+      margin-top: 150px;
+    margin-bottom: 100px;
+    width: 620px;
+    height: 400px;
+    }
+#crrctmsgpara{
+    font-size: 50px;
+    margin-top: 100px;
+}
+#next-qns-bttn{
+    background-color: black;
+    height: 30px;
+    width: 150px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+#submit-bttn{
+    color: whitesmoke;
+    background-color: rgb(9, 191, 2);
+    width: 210px;
+    height: 50px;
+    font-family:  'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+ #quizBox {
+      width: 100px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-family: Arial;
+    }
+ #closeIcon {
+      float: inline-end;
+      margin-right: 10px;
+      margin-top: 10px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+#result{
+    border: solid;
+    height: 200px;
+    width: 200px;
+    width: auto;
+    background-color: rgb(1, 158, 37);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+#result p{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 180px;
+}
+#crrtmessage-result{
+    margin-top: 100px;
+
+}
+#thankYouMessage{
+    border: solid;
+    margin-top: 150px;
+    height: 400px;
+    width: 520px;
+    background-color: rgb(1, 158, 37);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 30px;
+}
+#thankYouMessage h2{
+    margin-top: 120px;
+    font-size: 40px;
+    color: #fff;
+    border: none;
+}

@@ -3,18 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Quizapp</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <p>HTML</p>
-            <p>Where we  write a <link> tag in html </p>
+    <center>
+        <div id="quizbox">
+            <div id="container">
+            <div class="question1" >
+            <p id="para-1">HTML</p>
+            <p id="para-2">Where we  write a Link tag in<b> HTML ?</b> </p></div>
+           
+            <div class="quizoption">
+            <input type="radio" name="option" value="A" id="option0">
+            <label for="option0" id="label0">in body</label></div>
+             <div class="quizoption">
+            <input type="radio" name="option" value="B" id="option1">
+            <label for="option1" id="label1">in head</label></div>
+             <div class="quizoption">
+            <input type="radio" name="option" value="c" id="option2">
+            <label for="option2" id="label2">in title</label></div>
+             <div class="quizoption" onclick="Select">
+            <input type="radio" name="option" value="D" id="option3">
+            <label for="option3" id="label3">in css</label></div>
+          
+                <button id="submit-bttn" aria-required="true" onclick="correctAnswer()">Submit Answer</button></div></div></center> 
+        <center><div id="resultContent">
+           <div id="correctMessage">
+           <i id="closeIcon" class="fas fa-times" onclick="goBack()"></i>
+           <div id="crrtmessage-result"><h2 id="crrctmsgpara" > Correct!</h2></div>
+           <button id="next-qns-bttn"  onclick="nextQuestion()">Next question</button>
+        </div></div></center>
+              
+        <center>
             
-
-        </div>
-
+    <div id="thankYouMessage" style="display: none">
+      <h2>Thank you for attempting the quiz!</h2>
     </div>
+  </center>
+
+
+
+
+
+
+    <script src="script.js"></script>
     
 </body>
 </html>
